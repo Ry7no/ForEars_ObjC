@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddressViewController">
+            <connections>
+                <outlet property="addressTextField" destination="ZST-G9-cph" id="PxJ-p2-ZdD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FQ-dl-1DM">
+                    <rect key="frame" x="20" y="44" width="56" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Back">
+                        <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="backBtn:" destination="-1" eventType="touchUpInside" id="Htu-Nn-1yy"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shipping Address:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSx-J6-NgJ">
+                    <rect key="frame" x="37" y="109" width="173" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZST-G9-cph">
+                    <rect key="frame" x="37" y="145" width="340" height="180"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="m46-L8-RBl"/>
+                        <constraint firstAttribute="width" constant="340" id="pRe-Qn-duY"/>
+                    </constraints>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWg-Qp-FA4">
+                    <rect key="frame" x="37" y="356" width="340" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="340" id="49I-Xh-LSB"/>
+                        <constraint firstAttribute="height" constant="60" id="d61-Be-9yb"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="SAVE">
+                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="baseBackgroundColor" name="Orange"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="saveBtn:" destination="-1" eventType="touchUpInside" id="n1Y-Db-FHC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" name="HomeBG"/>
+            <constraints>
+                <constraint firstItem="cWg-Qp-FA4" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="37" id="1B9-m5-PTr"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="BSx-J6-NgJ" secondAttribute="trailing" constant="204" id="6dt-v9-05l"/>
+                <constraint firstItem="ZST-G9-cph" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="37" id="7w5-zH-OFi"/>
+                <constraint firstItem="BSx-J6-NgJ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="37" id="D0j-xH-jtg"/>
+                <constraint firstItem="ZST-G9-cph" firstAttribute="top" secondItem="BSx-J6-NgJ" secondAttribute="bottom" constant="12" id="DE3-qB-0CB"/>
+                <constraint firstItem="ZST-G9-cph" firstAttribute="top" secondItem="BSx-J6-NgJ" secondAttribute="bottom" constant="12" id="EzI-ql-zPx"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="cWg-Qp-FA4" secondAttribute="trailing" constant="37" id="U2P-yL-td4"/>
+                <constraint firstItem="8FQ-dl-1DM" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="bIb-gT-g6X"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="8FQ-dl-1DM" secondAttribute="bottom" constant="787" id="gW1-Z4-jfN"/>
+                <constraint firstItem="cWg-Qp-FA4" firstAttribute="top" secondItem="ZST-G9-cph" secondAttribute="bottom" constant="31" id="hKD-b9-7od"/>
+                <constraint firstItem="8FQ-dl-1DM" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="q45-dE-DgX"/>
+                <constraint firstItem="BSx-J6-NgJ" firstAttribute="top" secondItem="8FQ-dl-1DM" secondAttribute="bottom" constant="34" id="w9g-W0-oic"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="ZST-G9-cph" secondAttribute="trailing" constant="37" id="wSq-Xq-8Jl"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="63.616071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="HomeBG">
+            <color red="0.85500001907348633" green="0.80000001192092896" blue="0.74900001287460327" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Orange">
+            <color red="1" green="0.5725490196078431" blue="0.35294117647058826" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

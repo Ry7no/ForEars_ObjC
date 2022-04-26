@@ -11,9 +11,22 @@
 		510BDE7E2812CA410053548B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BDE7D2812CA410053548B /* SceneDelegate.m */; };
 		510BDE812812CA410053548B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BDE802812CA410053548B /* ViewController.m */; };
 		510BDE842812CA410053548B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510BDE822812CA410053548B /* Main.storyboard */; };
-		510BDE862812CA430053548B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510BDE852812CA430053548B /* Assets.xcassets */; };
 		510BDE892812CA430053548B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510BDE872812CA430053548B /* LaunchScreen.storyboard */; };
 		510BDE8C2812CA430053548B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BDE8B2812CA430053548B /* main.m */; };
+		51247BDA281703C800CD5D91 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 51247BD9281703C800CD5D91 /* Products.m */; };
+		515C6F4228167CB800A2469C /* ProductList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 515C6F4128167CB800A2469C /* ProductList.plist */; };
+		515C6F4628168C7900A2469C /* ProductCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C6F4528168C7900A2469C /* ProductCollectionViewController.m */; };
+		515C6F4928168C8A00A2469C /* ProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C6F4828168C8A00A2469C /* ProductCollectionViewCell.m */; };
+		515C6F4E2816924C00A2469C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515C6F4D2816924C00A2469C /* Assets.xcassets */; };
+		515C6F522816AA1F00A2469C /* LikedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C6F512816AA1F00A2469C /* LikedTableViewController.m */; };
+		515C6F552816AA3200A2469C /* LikedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C6F542816AA3200A2469C /* LikedTableViewCell.m */; };
+		515C6F582816AA4B00A2469C /* LikedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C6F572816AA4B00A2469C /* LikedViewController.m */; };
+		518598F52817D71F0016C805 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518598F42817D71F0016C805 /* ProfileViewController.m */; };
+		518598F92817E8210016C805 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518598F72817E8210016C805 /* AddressViewController.m */; };
+		518598FA2817E8210016C805 /* AddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518598F82817E8210016C805 /* AddressViewController.xib */; };
+		518598FE281819CB0016C805 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518598FC281819CA0016C805 /* AboutViewController.m */; };
+		518598FF281819CB0016C805 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518598FD281819CA0016C805 /* AboutViewController.xib */; };
+		5185990328181B390016C805 /* RyanRwdWeb1 in Resources */ = {isa = PBXBuildFile; fileRef = 5185990228181B390016C805 /* RyanRwdWeb1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +38,32 @@
 		510BDE7F2812CA410053548B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		510BDE802812CA410053548B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		510BDE832812CA410053548B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		510BDE852812CA430053548B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		510BDE882812CA430053548B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		510BDE8A2812CA430053548B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		510BDE8B2812CA430053548B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51247BD8281703C800CD5D91 /* Products.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		51247BD9281703C800CD5D91 /* Products.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		515C6F4128167CB800A2469C /* ProductList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductList.plist; sourceTree = "<group>"; };
+		515C6F4428168C7900A2469C /* ProductCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCollectionViewController.h; sourceTree = "<group>"; };
+		515C6F4528168C7900A2469C /* ProductCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCollectionViewController.m; sourceTree = "<group>"; };
+		515C6F4728168C8A00A2469C /* ProductCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCollectionViewCell.h; sourceTree = "<group>"; };
+		515C6F4828168C8A00A2469C /* ProductCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCollectionViewCell.m; sourceTree = "<group>"; };
+		515C6F4D2816924C00A2469C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../EshopAppTest_v1.2.1/EshopAppTest/Assets.xcassets; sourceTree = "<group>"; };
+		515C6F502816AA1F00A2469C /* LikedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikedTableViewController.h; sourceTree = "<group>"; };
+		515C6F512816AA1F00A2469C /* LikedTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikedTableViewController.m; sourceTree = "<group>"; };
+		515C6F532816AA3200A2469C /* LikedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikedTableViewCell.h; sourceTree = "<group>"; };
+		515C6F542816AA3200A2469C /* LikedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikedTableViewCell.m; sourceTree = "<group>"; };
+		515C6F562816AA4B00A2469C /* LikedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikedViewController.h; sourceTree = "<group>"; };
+		515C6F572816AA4B00A2469C /* LikedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikedViewController.m; sourceTree = "<group>"; };
+		518598F32817D71F0016C805 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		518598F42817D71F0016C805 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		518598F62817E8210016C805 /* AddressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		518598F72817E8210016C805 /* AddressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
+		518598F82817E8210016C805 /* AddressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressViewController.xib; sourceTree = "<group>"; };
+		518598FB281819CA0016C805 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		518598FC281819CA0016C805 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		518598FD281819CA0016C805 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		5185990228181B390016C805 /* RyanRwdWeb1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RyanRwdWeb1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +96,65 @@
 		510BDE782812CA410053548B /* ForEars_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				518598F22817D7000016C805 /* Profile */,
+				515C6F4328168C5200A2469C /* Home */,
+				515C6F4F2816A9F600A2469C /* Liked */,
 				510BDE792812CA410053548B /* AppDelegate.h */,
 				510BDE7A2812CA410053548B /* AppDelegate.m */,
 				510BDE7C2812CA410053548B /* SceneDelegate.h */,
 				510BDE7D2812CA410053548B /* SceneDelegate.m */,
 				510BDE7F2812CA410053548B /* ViewController.h */,
 				510BDE802812CA410053548B /* ViewController.m */,
+				515C6F562816AA4B00A2469C /* LikedViewController.h */,
+				515C6F572816AA4B00A2469C /* LikedViewController.m */,
 				510BDE822812CA410053548B /* Main.storyboard */,
-				510BDE852812CA430053548B /* Assets.xcassets */,
 				510BDE872812CA430053548B /* LaunchScreen.storyboard */,
+				515C6F4D2816924C00A2469C /* Assets.xcassets */,
+				5185990228181B390016C805 /* RyanRwdWeb1 */,
 				510BDE8A2812CA430053548B /* Info.plist */,
 				510BDE8B2812CA430053548B /* main.m */,
+				515C6F4128167CB800A2469C /* ProductList.plist */,
+				51247BD8281703C800CD5D91 /* Products.h */,
+				51247BD9281703C800CD5D91 /* Products.m */,
 			);
 			path = ForEars_ObjC;
+			sourceTree = "<group>";
+		};
+		515C6F4328168C5200A2469C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				515C6F4428168C7900A2469C /* ProductCollectionViewController.h */,
+				515C6F4528168C7900A2469C /* ProductCollectionViewController.m */,
+				515C6F4728168C8A00A2469C /* ProductCollectionViewCell.h */,
+				515C6F4828168C8A00A2469C /* ProductCollectionViewCell.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		515C6F4F2816A9F600A2469C /* Liked */ = {
+			isa = PBXGroup;
+			children = (
+				515C6F502816AA1F00A2469C /* LikedTableViewController.h */,
+				515C6F512816AA1F00A2469C /* LikedTableViewController.m */,
+				515C6F532816AA3200A2469C /* LikedTableViewCell.h */,
+				515C6F542816AA3200A2469C /* LikedTableViewCell.m */,
+			);
+			path = Liked;
+			sourceTree = "<group>";
+		};
+		518598F22817D7000016C805 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				518598F32817D71F0016C805 /* ProfileViewController.h */,
+				518598F42817D71F0016C805 /* ProfileViewController.m */,
+				518598F62817E8210016C805 /* AddressViewController.h */,
+				518598F72817E8210016C805 /* AddressViewController.m */,
+				518598F82817E8210016C805 /* AddressViewController.xib */,
+				518598FB281819CA0016C805 /* AboutViewController.h */,
+				518598FC281819CA0016C805 /* AboutViewController.m */,
+				518598FD281819CA0016C805 /* AboutViewController.xib */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +214,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518598FA2817E8210016C805 /* AddressViewController.xib in Resources */,
+				5185990328181B390016C805 /* RyanRwdWeb1 in Resources */,
+				515C6F4228167CB800A2469C /* ProductList.plist in Resources */,
 				510BDE892812CA430053548B /* LaunchScreen.storyboard in Resources */,
-				510BDE862812CA430053548B /* Assets.xcassets in Resources */,
 				510BDE842812CA410053548B /* Main.storyboard in Resources */,
+				518598FF281819CB0016C805 /* AboutViewController.xib in Resources */,
+				515C6F4E2816924C00A2469C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +232,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				510BDE812812CA410053548B /* ViewController.m in Sources */,
+				515C6F522816AA1F00A2469C /* LikedTableViewController.m in Sources */,
 				510BDE7B2812CA410053548B /* AppDelegate.m in Sources */,
+				518598F92817E8210016C805 /* AddressViewController.m in Sources */,
+				515C6F582816AA4B00A2469C /* LikedViewController.m in Sources */,
+				515C6F552816AA3200A2469C /* LikedTableViewCell.m in Sources */,
+				51247BDA281703C800CD5D91 /* Products.m in Sources */,
+				515C6F4628168C7900A2469C /* ProductCollectionViewController.m in Sources */,
 				510BDE8C2812CA430053548B /* main.m in Sources */,
+				518598F52817D71F0016C805 /* ProfileViewController.m in Sources */,
+				515C6F4928168C8A00A2469C /* ProductCollectionViewCell.m in Sources */,
+				518598FE281819CB0016C805 /* AboutViewController.m in Sources */,
 				510BDE7E2812CA410053548B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

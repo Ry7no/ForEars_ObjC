@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Products</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Apple - AirPods Max</string>
+			<key>Color</key>
+			<string>Space Gray</string>
+			<key>Subtitle</key>
+			<string>Apple-designed dynamic driver</string>
+			<key>Description</key>
+			<string>AirPods Max reimagine over-ear headphones. An Apple-designed dynamic driver provides immersive high-fidelity audio. Every detail, from canopy to cushions, has been designed for an exceptional fit. Active Noise Cancellation blocks outside noise, while Transparency mode lets it in. And spatial audio with dynamic head tracking provides theater-like sound that surrounds you.¹</string>
+			<key>Price</key>
+			<string>$499</string>
+			<key>Image</key>
+			<string>AirPodsMax</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bose - Headphones 700</string>
+			<key>Color</key>
+			<string>Triple Black</string>
+			<key>Subtitle</key>
+			<string>Wireless Noise Cancelling</string>
+			<key>Description</key>
+			<string>Bose Noise Cancelling Headphones 700 deliver everything you expect from Bluetooth headphones – and some things you never imagined possible. It’s no surprise PC Magazine called them “The best active noise cancellation you can buy.” Eleven levels of noise cancellation feature a range of options to choose from. You can totally eliminate distractions or minimize noise cancelling to hear everything around you. Or choose from nine other levels in between. Active noise cancelling technology in Bose Headphones 700 monitors the sounds around you and instantly cancels out unwanted noise to let your music shine through. At the same time, the acoustic space inside the earcups is maximized to give your music depth and detail. With these noise cancelling headphones, it’s not just your music that’s clear, so are your calls.</string>
+			<key>Price</key>
+			<string>$379</string>
+			<key>Image</key>
+			<string>BoseHeadphones700</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Beats - Studio3</string>
+			<key>Color</key>
+			<string>Matte Black</string>
+			<key>Subtitle</key>
+			<string>Wireless Noise Cancelling</string>
+			<key>Description</key>
+			<string>Beats Studio³ Wireless headphones deliver a premium listening experience with Pure Adaptive Noise Cancelling (Pure ANC) to actively block external noise, and real-time audio calibration to preserve clarity, range, and emotion. It continuously pinpoints sounds to block while automatically responding to individual fit and music playback. The efficiency of the Apple W1 chip supports up to 22 hours of battery life with Pure ANC on, and Pure ANC off for low-power mode provides up to 40 hours of playback.</string>
+			<key>Price</key>
+			<string>$199</string>
+			<key>Image</key>
+			<string>BeatsbyDrDre</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sony - WH1000XM4</string>
+			<key>Color</key>
+			<string>Black</string>
+			<key>Subtitle</key>
+			<string>Wireless Noise-Cancelling</string>
+			<key>Description</key>
+			<string>Sony&apos;s intelligent noise-cancelling headphones with premium sound elevate your listening experience with the ability to personalize and control everything you hear. Get up to 30 hours of battery life with quick charging capabilities, enjoy an enhanced Smart Listening feature set, and carry conversations hands-free with speak-to-chat.</string>
+			<key>Price</key>
+			<string>$299</string>
+			<key>Image</key>
+			<string>SonyWH1000XM4</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sennheiser - MOMENTUM</string>
+			<key>Color</key>
+			<string>Black</string>
+			<key>Subtitle</key>
+			<string>Wireless Noise-Canceling</string>
+			<key>Description</key>
+			<string>Enjoy the powerful, crisp sound of these Sennheiser MOMENTUM wireless over-the-ear headphones. The sheep leather headband and ear pads conform to the shape of your head, adding comfort for all-day use, and Bluetooth connectivity lets you stream music from various devices easily. These Sennheiser MOMENTUM wireless over-the-ear headphones have active noise cancellation that lets you block or listen in on external sounds.</string>
+			<key>Price</key>
+			<string>$399</string>
+			<key>Image</key>
+			<string>SennheiserMOMENTUM</string>
+		</dict>
+	</array>
+</dict>
+</plist>

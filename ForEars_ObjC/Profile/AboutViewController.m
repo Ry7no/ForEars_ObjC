@@ -16,10 +16,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"RyanRwdWeb1"];
     NSString *html = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+    
+    NSLog(@"DEBUG %@",path);
 
-    [self.webView loadHTMLString:html baseURL:[[NSBundle mainBundle] bundleURL]];
+    [self.webView loadHTMLString:html baseURL:[[NSBundle mainBundle] executableURL]];
 }
 
 /*
